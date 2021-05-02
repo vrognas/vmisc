@@ -1,0 +1,14 @@
+Package: vmisc
+Title: Collection of Miscellaneous Utility Functions
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Viktor",
+           family = "Rognås",
+           role = c("aut", "cre"),
+           email = "viktor.rognas@farmaci.uu.se",
+           comment = c(ORCID = "0000-0002-7837-2467"))
+Description: Collection of miscellaneous custom utility/helper functions that have proved useful.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1.9001
