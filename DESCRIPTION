@@ -14,7 +14,9 @@ Imports:
     purrr,
     lubridate,
     hms,
-    stringr
+    stringr,
+    ggplot2,
+    ggpmisc
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.1.1.9001
