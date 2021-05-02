@@ -1,5 +1,5 @@
 Package: vmisc
-Title: Collection of Miscellaneous Utility Functions
+Title: Miscellaneous Utility Functions
 Version: 0.0.0.9000
 Authors@R: 
     person(given = "Viktor",
@@ -9,11 +9,12 @@ Authors@R:
            comment = c(ORCID = "0000-0002-7837-2467"))
 Description: Collection of miscellaneous custom utility/helper functions that have proved useful.
 License: MIT + file LICENSE
-Encoding: UTF-8
-Roxygen: list(markdown = TRUE)
-RoxygenNote: 7.1.1.9001
+URL: https://github.com/vrognas/vmisc
 Imports: 
     purrr,
     lubridate,
     hms,
     stringr
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1.9001
