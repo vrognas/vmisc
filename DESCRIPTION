@@ -8,6 +8,7 @@ Authors@R:
            role = c("aut", "cre"),
            email = "viktor.rognas@farmaci.uu.se",
            comment = c(ORCID = "0000-0002-7837-2467"))
+Maintainer: Viktor Rognås <viktor.rognas@farmaci.uu.se>
 Description: Collection of miscellaneous custom utility/helper functions that have proved useful.
 License: MIT + file LICENSE
 URL: https://github.com/vrognas/vmisc
