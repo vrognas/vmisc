@@ -5,10 +5,12 @@
 #' @keywords lm linear model equation
 #' @export
 #' @examples
+#' \dontrun{
 #' cars %>%
 #' ggplot(aes(x = x, y = y)) +
 #' geom_smooth(method = "lm") +
 #' lm_eq()
+#' }
 
 lm_eq <- function() {
   ggpmisc::stat_poly_eq(

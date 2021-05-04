@@ -11,10 +11,12 @@ This function allows you to output the equation as well as the adjusted
 R-squared, for a linear model in a ggplot.
 }
 \examples{
+\dontrun{
 cars \%>\%
 ggplot(aes(x = x, y = y)) +
 geom_smooth(method = "lm") +
 lm_eq()
+}
 }
 \keyword{equation}
 \keyword{linear}
