@@ -2,6 +2,7 @@
 # vmisc
 
 <!-- badges: start -->
+[![R-CMD-check](https://github.com/vrognas/vmisc/workflows/R-CMD-check/badge.svg)](https://github.com/vrognas/vmisc/actions)
 <!-- badges: end -->
 
 ## Overview
