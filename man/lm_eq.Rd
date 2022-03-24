@@ -12,8 +12,10 @@ R-squared, for a linear model in a ggplot.
 }
 \examples{
 \dontrun{
+library(ggplot2)
+
 cars \%>\%
-ggplot(aes(x = x, y = y)) +
+ggplot(aes(x = speed, y = dist)) +
 geom_smooth(method = "lm") +
 lm_eq()
 }
