@@ -11,8 +11,8 @@ Collection of miscellaneous custom utility/helper functions that have proved use
 
   - `get_time()`: Extract the time elements from a date-time
   - `lm_eq()`: Display the equation and adjusted R-squared for a linear model in a ggplot.
-  - `model_table()` Gather data from a NONMEM run and output it into a table
-  - `n_fun()` writes the number of data points on a box plot
+  - `model_table()`: Gather data from a NONMEM run and output it into a table
+  - `n_fun()`: Writes the number of data points on a box plot
 
 ## Installation
 
