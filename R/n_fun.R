@@ -1,6 +1,7 @@
 #' n_fun function
 #'
-#' Output the number of data points in a box plot
+#' Output the number of data points in a box plot.
+#' For use within `ggplot2::stat_summary()`.
 #'
 #' @param x smth
 #'
