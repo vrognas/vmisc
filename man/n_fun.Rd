@@ -10,7 +10,8 @@ n_fun(x)
 \item{x}{smth}
 }
 \description{
-Output the number of data points in a box plot
+Output the number of data points in a box plot.
+For use within \code{ggplot2::stat_summary()}.
 }
 \examples{
 \dontrun{
