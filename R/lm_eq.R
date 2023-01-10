@@ -17,7 +17,7 @@
 lm_eq <- function() {
   ggpmisc::stat_poly_eq(
     ggplot2::aes(
-      label =  paste(stat(eq.label), stat(adj.rr.label), sep = "*\", \"*")
+      label =  paste(after_stat(eq.label), stat(adj.rr.label), sep = "*\", \"*")
     ),
     formula = y ~ x,
     parse = TRUE
