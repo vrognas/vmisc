@@ -15,7 +15,7 @@ get_time <- function(datetime = lubridate::now()) {
   second_val <- lubridate::second(datetime)
 
   # Convert to hms format
-  time_hms <- hms::hms(hours = hour_val, minutes = minute_val, seconds = second_val)
+  time <- hms::hms(hours = hour_val, minutes = minute_val, seconds = second_val)
 
   return(time)
 }
