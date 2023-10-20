@@ -17,5 +17,5 @@
 #' )
 #' }
 n_fun <- function(x){
-  return(data.frame(y = median(x), label = paste0("n = ", length(x))))
+  return(data.frame(y = stats::median(x), label = paste0("n = ", length(x))))
 }
