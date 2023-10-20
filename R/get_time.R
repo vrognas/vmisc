@@ -7,16 +7,15 @@
 #' @examples
 #' get_time()
 
-get_time <- function(datetime = lubridate::now()){
+get_time <- function(datetime = lubridate::now()) {
 
-  datetime_list <- datetime %>% stringr::str_split(" ")
+  # Extract hour, minute, and second using lubridate
+  hour_val   <- lubridate::hour(datetime)
+  minute_val <- lubridate::minute(datetime)
+  second_val <- lubridate::second(datetime)
 
-  if (base::length(datetime_list[[1]]) == 2){
-    time <- datetime_list %>%
-      purrr::map_chr(2) %>%
-      hms::as_hms()
-  } else {
-    time <- hms::as_hms("00:00:00")
-  }
+  # Convert to hms format
+  time_hms <- hms::hms(hours = hour_val, minutes = minute_val, seconds = second_val)
+
   return(time)
 }
